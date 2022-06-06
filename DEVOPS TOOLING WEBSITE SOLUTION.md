@@ -10,15 +10,22 @@ The website will display a dashboard of some of the most useful DevOps tools as 
 - Prometheus
 - Kibana
 
+#### Architecture of Project / solution
+
+![image](https://user-images.githubusercontent.com/58276505/172155502-f8f9bb0c-432f-46a2-ae99-acd8bc6fc4b4.png)
+
+#### Project Requirement:
 The project will use the following components:
 - AWS as infrastructure
 - Web Server with Red Hat Enterprise Linux 8
 - DB Server with Ubuntu 20.04 and MySQL
 - Storage solution: Red Hat Enterprise Linux 8 + NFS Server
 
-#### Step 1: Create NFS Server
+####  Start Implementation
 
-##### Create an EC2 instance with RHEL Linux 8 Operating System
+##### Step 1: Create NFS Server: 
+
+* Launch an EC2 instance with RHEL Linux 8 Operating System
 
 ##### Configure LVM on the server: 
 - Create three logical volumes of 'xfs' format and name them as lv-opt, lv-apps and lv-logs.
