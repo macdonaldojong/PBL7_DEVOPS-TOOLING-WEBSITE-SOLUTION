@@ -10,7 +10,7 @@ The website will display a dashboard of some of the most useful DevOps tools as 
 - Prometheus
 - Kibana
 
-#### Architecture of Project / solution
+### Architecture Of Project / Solution:
 
 ![image](https://user-images.githubusercontent.com/58276505/172155502-f8f9bb0c-432f-46a2-ae99-acd8bc6fc4b4.png)
 
